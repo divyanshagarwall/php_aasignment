@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="file.php" method="post">
+        <table>
+            <tr>
+                <label><td>Enter a string:</td></label>
+                <td><input type="text" name="string"></td>
+            </tr>
+            <tr>
+                <td>enter a number:</td>
+                <td><input type="number" name="number"></td>
+            </tr>
+            <tr>
+                <td>enter the string which you want to remove (for str_replace):</td>
+                <td><input type="text" name="remove_string"></td>
+            </tr>
+            <tr>
+                <td>enter the string which you want to add</td>
+                <td><input type="text" name="add_string" id=""></td>
+            </tr>
+            <tr>
+                <td>enter the string from which you want to compare with (for strcasecmp):</td>
+                <td><input type="text" name="compare_string"></td>
+            </tr>
+            <tr>
+                <td>enter the substring for strcasecmp:</td>
+                <td><input type="text" name="substring" id=""></td>
+            </tr>
+            <tr>
+                <td>enter index value for Substr</td>
+                <td><input type="number" name="substr" id=""></td>
+            </tr>
+            <tr>
+                <td>enter the string which you want to chop:</td>
+                <td><input type="text" name="chop_string"></td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <td><input type="submit" name="Md5" value="Md5" id=""></td>
+                <td><input type="submit" name="Number_format" value="Number_format" id=""></td>
+                <td><input type="submit" name="Ord" value="Ord" id=""></td>
+                <td><input type="submit" name="Rtrim" value="Rtrim" id=""></td>
+                <td><input type="submit" name="Str_replace" value="Str_replace" id=""></td>
+                <td><input type="submit" name="Str_len" value="Str_len" id=""></td>
+                <td><input type="submit" name="Strcasecmp" value="Strcasecmp" id=""></td>
+                <td><input type="submit" name="Strpos" value="Strpos" id=""></td>
+                <td><input type="submit" name="Substr" value="Substr" id=""></td>
+                <td><input type="submit" name="Strtolower" value="Strtolower" id=""></td>
+                <td><input type="submit" name="Bin2Hex" value="Bin2Hex" id=""></td>
+                <td><input type="submit" name="Chop" value="Chop" id=""></td>
+            </table>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
